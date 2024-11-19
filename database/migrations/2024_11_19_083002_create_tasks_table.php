@@ -20,7 +20,6 @@ return new class extends Migration
             $table->string('options_two');
             $table->string('options_three');
             $table->string('options_four');
-
             $table->timestamps();
         });
     }
