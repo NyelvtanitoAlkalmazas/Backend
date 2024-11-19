@@ -17,10 +17,10 @@ return new class extends Migration
             $table->string('hungarian')->nullable();
             $table->string('sentence');
             $table->string('basis');
-            $table->string('options_one')->nullable();
-            $table->string('options_two')->nullable();
-            $table->string('options_three')->nullable();
-            $table->string('options_four')->nullable();
+            $table->string('option_one')->nullable();
+            $table->string('option_two')->nullable();
+            $table->string('option_three')->nullable();
+            $table->string('option_four')->nullable();
             $table->timestamps();
         });
 

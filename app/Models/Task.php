@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Task extends Model
 {
     protected $fillable = [
-        'hungatian',
+        'hungarian',
         'sentence',
         'basis',
         'option_one',
