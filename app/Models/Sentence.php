@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Sentence extends Model
 {
-    protected $fillabel = ['sentence'];
+    protected $fillable = ['sentence'];
 }
